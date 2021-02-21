@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 using namespace std;
 
 int main() {
@@ -7,7 +6,6 @@ int main() {
 	cin.tie(NULL);
 
 	int n, num[2001] = {}, k;
-	vector<int> vec;
 
 	cin >> n;
 	for (int i = 0; i < n; i++) {
